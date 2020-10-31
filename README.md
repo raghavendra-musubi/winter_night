@@ -14,7 +14,7 @@
 ![Imgur](https://i.imgur.com/cxXvobK.png)
 ***
 ![Imgur](https://i.imgur.com/UWHXC5C.jpg) 
-
+***
 # Project Details
 
 - this is a Blog App
