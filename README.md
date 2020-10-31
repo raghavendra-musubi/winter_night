@@ -1,5 +1,6 @@
 
-# Django Slides
+# Django Learning Slides
+***
 
 ![Imgur](https://i.imgur.com/2kywEy5.png)
 
