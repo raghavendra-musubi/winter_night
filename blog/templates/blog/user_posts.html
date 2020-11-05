@@ -2,6 +2,9 @@
 
 {% block content %}
 
+    <h1> Posts by {{view.kwargs.username}} </h1>
+    <p> ({{page_obj.paginator.count }} posts by this user) </p>
+
     {% for post in posts %}
 
         <article class="media content-section">
