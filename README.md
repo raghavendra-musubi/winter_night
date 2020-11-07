@@ -16,8 +16,14 @@
 ***
 ![Imgur](https://i.imgur.com/UWHXC5C.jpg) 
 ***
+
 # Project Details
 
 - this is a Blog App
   - Using Django 
   - following [Django Playlist by CoreyMS](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
+
+
+# Reading Resources
+
+- [https://itsyndicate.org/blog/relay-access-denied-solution/](https://itsyndicate.org/blog/relay-access-denied-solution/)
