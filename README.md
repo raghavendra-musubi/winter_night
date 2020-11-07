@@ -9,6 +9,9 @@
   - Using Django 
   - following [Django Playlist by CoreyMS](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
 
+# SMTP Resources
+
+- [Ethereal](https://ethereal.email/)
 
 # Reading Resources
 
