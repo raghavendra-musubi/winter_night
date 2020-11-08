@@ -136,8 +136,13 @@ MEDIA_URL = '/media/'
 # SMTP EMAIL SETTINGS
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'in-v3.mailjet.com'
+# EMAIL_HOST = 'in-v3.mailjet.com'
+EMAIL_HOST = 'smtp.ethereal.email'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
+# EMAIL_HOST_USER = '80e1c845ce405668a319e3a9c45bcc21'
+# EMAIL_HOST_PASSWORD = '3a725d6451a3176ac737fba00763e083'
+# EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
+# EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
+EMAIL_HOST_USER = 'augustine41@ethereal.email'
+EMAIL_HOST_PASSWORD = 'F2hnyezMJ5K3CPYbtq'
