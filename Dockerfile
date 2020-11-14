@@ -14,6 +14,8 @@ ENV PYTHONUNBUFFERED=1
 # Install pip requirements
 ADD requirements.txt .
 RUN python -m pip install -r requirements.txt
+RUN apt-get update
+RUN apt-get install gunicorn -y
 
 WORKDIR /app
 ADD . /app
