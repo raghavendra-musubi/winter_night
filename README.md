@@ -13,6 +13,10 @@
 
 - [Ethereal](https://ethereal.email/)
 
+# Docker Apache 
+
+- [Setup Apache with Docker File](https://karllorey.com/posts/django-production-docker-mod-wsgi/)
+
 # Reading Resources
 
 - [https://itsyndicate.org/blog/relay-access-denied-solution/](https://itsyndicate.org/blog/relay-access-denied-solution/)

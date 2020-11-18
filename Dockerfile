@@ -23,7 +23,7 @@ RUN pip3 install mod_wsgi
 WORKDIR /app
 ADD . /app
 
-# set owner access 
+# set owner access for 
 RUN chown www-data -R /app/
 
 # set permission
