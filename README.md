@@ -55,6 +55,11 @@
   ```
 - Check the application running in the browser 
   - go to `localhost:8000`
+  
+- to stop the container, run the following command
+  ```zsh
+  docker stop wn
+  ```
 
 ### GUI
 
@@ -80,6 +85,9 @@
     
 - Check the application running in the browser 
   - go to `localhost:8000`
+  
+- go to Docker Desktop > Containers/Apps
+  - find `wn` in the list and stop it with the stop button
   
 # Resources
 
