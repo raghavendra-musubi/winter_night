@@ -13,6 +13,15 @@
 
 - [Ethereal](https://ethereal.email/)
 
+# Apache 
+
+- [Vagrant Box with Apache](https://drive.google.com/file/d/1M735ua2HjVW2VWervuGQJ9vYvkv-gkG1/view?usp=sharing)
+- [Docker with Apache]()
+
+# Gunicorn
+
+- [Docker with Gunicorn]()
+
 # Reading Resources
 
 - [https://itsyndicate.org/blog/relay-access-denied-solution/](https://itsyndicate.org/blog/relay-access-denied-solution/)
