@@ -24,6 +24,64 @@
 - [Docker with Gunicorn](https://github.com/raghavendra-musubi/winter_night/tree/docker-gunicorn)
   - [Setup Gunicorn with Docker](https://code.visualstudio.com/docs/containers/quickstart-python)
 
+
+# Docker Setup 
+
+### CLI
+
+- Clone one of the above Docker repository, either for Apache or Gunicorn server
+- Make sure these requirements are in the `requirements.txt` file
+  - apache server 
+    ```
+    django==3.1.1
+    django-crispy-forms==1.9.2
+    Pillow==7.2.0
+    ```
+  - gunicorn server 
+    ```
+    django==3.1.1
+    gunicorn==20.0.4
+    django-crispy-forms==1.9.2
+    Pillow==7.2.0
+    ```
+- Navigate to the project base directory in the CLI
+- Use the Dockerfile to build the image
+  ```zsh
+  docker build --tag winter-night:v0 .
+  ```
+- Run the image to deploy to a contianer 
+  ```zsh
+  docker run --publish 8000:8000 --detach --name wn winter-night:v0
+  ```
+- Check the application running in the browser 
+  - go to `localhost:8000`
+
+### GUI
+
+- Clone one of the above Docker repository, either for Apache or Gunicorn server
+- Make sure these requirements are in the `requirements.txt` file
+  - apache server 
+    ```
+    django==3.1.1
+    django-crispy-forms==1.9.2
+    Pillow==7.2.0
+    ```
+  - gunicorn server 
+    ```
+    django==3.1.1
+    gunicorn==20.0.4
+    django-crispy-forms==1.9.2
+    Pillow==7.2.0
+    ```
+ - in VSCode, right click on the Dockerfile and create image
+ - in Docker Desktop, run the image to deploy a container 
+    - name the container as `wn`
+    - set port mapping to `8000`
+    
+- Check the application running in the browser 
+  - go to `localhost:8000`
+  
 # Reading Resources
 
 - [https://itsyndicate.org/blog/relay-access-denied-solution/](https://itsyndicate.org/blog/relay-access-denied-solution/)
+
