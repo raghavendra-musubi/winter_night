@@ -17,7 +17,7 @@
 
 - [Vagrant Box with Apache](https://drive.google.com/file/d/1M735ua2HjVW2VWervuGQJ9vYvkv-gkG1/view?usp=sharing)
 - [Docker with Apache](https://github.com/raghavendra-musubi/winter_night/tree/apache-build-attempt)
-- [Setup Apache with Docker File](https://karllorey.com/posts/django-production-docker-mod-wsgi/)
+  - [Setup Apache with Docker File](https://karllorey.com/posts/django-production-docker-mod-wsgi/)
 
 # Gunicorn
 
