@@ -20,7 +20,7 @@
 
 # Gunicorn
 
-- [Docker with Gunicorn](https://github.com/raghavendra-musubi/winter_night/blob/docker-gunicorn/README.md)
+- [Docker with Gunicorn](https://github.com/raghavendra-musubi/winter_night/tree/docker-gunicorn)
 
 # Reading Resources
 
