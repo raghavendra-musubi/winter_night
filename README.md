@@ -81,7 +81,7 @@
 - Check the application running in the browser 
   - go to `localhost:8000`
   
-# Reading Resources
+# Resources
 
 - [https://itsyndicate.org/blog/relay-access-denied-solution/](https://itsyndicate.org/blog/relay-access-denied-solution/)
-
+- [Docker - Build and Run your image](https://docs.docker.com/get-started/part2/)
